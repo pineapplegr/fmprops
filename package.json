@@ -1,0 +1,24 @@
+{
+  "name": "fmprops",
+  "version": "1.0.0",
+  "description": "Parses webviewer props from FileMaker",
+  "main": "fmProps.js",
+  "types": "index.d.ts",
+  "scripts": {
+    "test": "echo \\\"Error: no test specified\\\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/pineapplegr/fmprops.git"
+  },
+  "keywords": [
+    "filemaker",
+    "webviewer"
+  ],
+  "author": "Stathis Askaridis",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/pineapplegr/fmprops/issues"
+  },
+  "homepage": "https://github.com/pineapplegr/fmprops#readme"
+}
