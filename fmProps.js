@@ -1,4 +1,4 @@
-export function load() {
+export function loadFmProps() {
     let props = '##PROPSPLACEHOLDER##'
     const metaDevUrl = document.querySelector('meta[dev-url]').getAttribute('dev-url');
 
@@ -19,9 +19,10 @@ export function load() {
         }
     }
 
-    window.__PROPS__ = props;
+    window.__FMPROPS__ = props;
+    return props;
 }
 
-export function get() {
+export function getFmProps() {
     return window.__PROPS__;
 }
