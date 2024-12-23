@@ -1,5 +1,5 @@
 export function loadFmProps() {
-    let props = '##PROPSPLACEHOLDER##'
+    let props = "##PROPSPLACEHOLDER##";
     const metaDevUrl = document.querySelector('meta[dev-url]').getAttribute('dev-url');
 
     if (window.location.href.includes(metaDevUrl)) {
@@ -9,7 +9,7 @@ export function loadFmProps() {
     } else {
         // We are in production mode try getting the merged props
 
-        if (props === "##PROPSPLACEHOLDER##") { // Use double quotes here so we can use single quotes for the merge
+        if (props === "##" + "PROPS" + "PLACEHOLDER" + "##") { // Construct the placeholder so it cannot be replaced
             props = {}; // Then we have not provided any props
         } else {
             if (typeof props !== 'object') {
