@@ -1,6 +1,6 @@
 {
   "name": "fmprops",
-  "version": "1.0.3",
+  "version": "1.0.4",
   "description": "Parses webviewer props from FileMaker",
   "main": "fmProps.js",
   "types": "index.d.ts",

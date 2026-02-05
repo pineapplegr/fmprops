@@ -1,4 +1,2 @@
-declare module 'fmprops' {
-    export function load(): void;
-    export function get(): any;
-}
+export function loadFmProps(): Record<string, any>;
+export function getFmProps(): Record<string, any>;

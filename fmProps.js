@@ -24,5 +24,5 @@ export function loadFmProps() {
 }
 
 export function getFmProps() {
-    return window.__PROPS__;
+    return window.__FMPROPS__;
 }
